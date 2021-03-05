@@ -1,5 +1,5 @@
-x= int(input("Enter the size of first array: "))
-y= int(input("Enter the size of second array: "))
+x= int(input("Enter the size of nums1: "))
+y= int(input("Enter the size of nums2: "))
 list1=[]
 for i in range(0,x):
     a=int(input())
