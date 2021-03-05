@@ -1,7 +1,7 @@
-x=int(input("Enter size of list"))
-ini_list = []
-for i in range(0,x):
-    ini_list.append(input())
-result = sorted(ini_list, key = ini_list.count,reverse = True)
-x=result[-1]
-print(x)
+def findSingle( ar, n):
+    res = ar[0]
+    for i in range(1,n):
+        res = res ^ ar[i]
+    return res
+ar = [4,1,2,1,2]
+print(findSingle(ar, len(ar)))
