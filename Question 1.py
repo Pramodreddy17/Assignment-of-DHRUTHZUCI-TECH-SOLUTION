@@ -1,5 +1,5 @@
 chemicals = ['Amazon', 'Microsoft', 'Google']
-symbols = ['I', 'Am', 'cro', 'le', 'abc']
+symbols = ['I', 'Am', 'cro','Na', 'le', 'abc']
 
 def match_symbol(chemicals, symbols):
     import re
